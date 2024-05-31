@@ -42,10 +42,10 @@ user_id_2 = os.environ["USER_ID_2"]  # 如果只有一个人，删去即可
 '''
 user_id_list = [
     {'user_id': user_id_1, 
-     "name": '毛毛', 
+     "name": 'mao_mao', 
      "date": "2022-10-06",
      "birthday": "01-29",
-     'city': '110108'}
+     'city': '370211'}
     # ,{'user_id': user_id_2, "name": 'Orange', "date": "2021-04-02", "birthday": "05-28",
     #  'city': '370211'}
 ]
