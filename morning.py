@@ -37,14 +37,17 @@ user_id_2 = os.environ["USER_ID_2"]  # 如果只有一个人，删去即可
     user_id: 微信公众号的 openid
        name: 昵称
        date: 相识日期
-   birthday: 生日
+        birthday: 生日
        city: 城市编码，在高德 api 接口文档处查询
 '''
 user_id_list = [
-    {'user_id': user_id_1, "name": 'Orange', "date": "2021-04-02", "birthday": "05-28",
+    {'user_id': user_id_1, 
+     "name": '毛毛', 
+     "date": "2022-10-06",
+     "birthday": "01-29",
      'city': '110108'}
     # ,{'user_id': user_id_2, "name": 'Orange', "date": "2021-04-02", "birthday": "05-28",
-    #  'city': '110108'}
+    #  'city': '370211'}
 ]
 
 ##################################
